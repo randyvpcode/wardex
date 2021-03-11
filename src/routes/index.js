@@ -5,6 +5,7 @@ import Loading from '../components/Loading'
 
 const Home = React.lazy(() => import('../pages/Home'))
 const Detail = React.lazy(() => import('../pages/Detail'))
+const Compare = React.lazy(() => import('../pages/Compare'))
 
 export default function Routes() {
   return (
@@ -13,6 +14,7 @@ export default function Routes() {
         <Switch>
           <Route exact path={['/', '/filter/:filter']} component={Home} />
           <Route exact path="/pokemon/:name" component={Detail} />
+          <Route exact path="/compare" component={Compare} />
           {/* <Route component={Error} /> */}
         </Switch>
       </React.Suspense>
