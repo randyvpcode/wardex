@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Wardex
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## How to install
+
+- Node & Yarn or NPM must be installed in your local
+- clone this repo `git clone https://github.com/randyvpcode/wardex.git`
+- ```cd wardex && yarn or yarn install or npm install if use npm
+
+  ```
 
 ## Available Scripts
 
