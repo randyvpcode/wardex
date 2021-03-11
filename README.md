@@ -7,6 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Node & Yarn or NPM must be installed in your local
 - clone this repo `git clone https://github.com/randyvpcode/wardex.git`
 - `cd wardex && yarn or yarn install or npm install if use npm`
+- `yarn build:style`
+- `yarn start`
 
 ## Available Scripts
 
