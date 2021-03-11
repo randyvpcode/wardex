@@ -22,7 +22,7 @@
   "scripts": {
     "build:style": "tailwind build src/styles/tailwind.css -o src/styles/index.css",
     "start": "craco start",
-    "build": "npm run build:css && craco build",
+    "build": "npm run build:style && craco build",
     "test": "craco test",
     "eject": "craco eject",
     "prettier": "prettier \"**/*.{js,jsx,css,json}\"",
